@@ -1,0 +1,57 @@
+ h1 {
+    color: rgb(246, 146, 163);
+    font-size: 50px;
+    
+}
+p{
+    font-size: 30px;
+}
+
+h3{
+    color: rgb(246, 146, 163);
+    font-size: 40px;
+} 
+
+ body{
+    background-color: rgb(181, 177, 177);
+     background-image: url(../CSS-Logo-2011.png); */
+ } 
+ h1{
+    color: #ece7e7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+} 
+
+
+
+#heading1{
+    color: #ea8b8b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+#heading2{
+    color: #986cef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-style: ;
+}
+#heading3{
+    color: #3de54e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+#heading4{
+    color: #3e85b5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+} 
+#text1{
+    color: #ef1313;
+    font-style: italic;
+}
+#text2{
+    color: #1923df;
+    font-weight: bold;
+}
