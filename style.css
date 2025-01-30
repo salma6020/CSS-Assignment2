@@ -1,57 +1,67 @@
- h1 {
-    color: rgb(246, 146, 163);
-    font-size: 50px;
+body{
+   background-color: rgb(243, 192, 126);
+}
+/* hover tab use hota hi tab mouse pix pe lak k jawo */
+ img:hover{
+    opacity: 0.6;
+    /* how to give border border k name dena lazime hai like solid */
+    border: 5px double rgb(227, 41, 41);} 
     
-}
-p{
-    font-size: 30px;
-}
+/* Transparent Box */
 
-h3{
-    color: rgb(246, 146, 163);
-    font-size: 40px;
-} 
+div {
+    background-color: #5977ae;
+    padding: 10px;
+    border: 5px solid black;
+  }
+  
+  div.one {
+    opacity: 0.1;
+  }
+  
+  div.two{
+    opacity: 0.3;
+  }
+  
+  div.three {
+    opacity: 0.6;
+  }
 
- body{
-    background-color: rgb(181, 177, 177);
-     background-image: url(../CSS-Logo-2011.png); */
- } 
- h1{
-    color: #ece7e7;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+  div .four{
+  opacity: opacity 1;
+  }
+/*  With RGBA color values */
+  div.first {
+    background: rgba(4, 170, 109, 0.1);
+  }
+  
+  div.second {
+    background: rgba(4, 170, 109, 0.3);
+  }
+  
+  div.third {
+    background: rgba(4, 170, 109, 0.6);
+  }
 
-} 
+  /* filter property */
+  .blur {filter: blur(4px);}
 
 
+ /* backgroud picture */
+   /* body{
+     background-image: url(../images\ 1\ flower.jpeg);  
+      /* background-repeat: no-repeat; } */
 
-#heading1{
-    color: #ea8b8b;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    font-style: italic;
-}
-#heading2{
-    color: #986cef;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    font-style: ;
-}
-#heading3{
-    color: #3de54e;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-}
-#heading4{
-    color: #3e85b5;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-} 
-#text1{
-    color: #ef1313;
-    font-style: italic;
-}
-#text2{
-    color: #1923df;
-    font-weight: bold;
-}
+/*  
+ div{
+   padding: 40px;
+   background-color: rgb(13, 13, 13);
+   color: #eadddd;
+    margin-top: 240px; 
+    
+ }
+ div>p{
+   font-size: 20px;
+   font-weight: bold;
+   
+ }   */ 
